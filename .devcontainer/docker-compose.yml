@@ -1,0 +1,10 @@
+version: "3"
+services:
+  work:
+    build:
+      context: ../
+    volumes:
+      - ../:/workspaces
+    tty: true
+    environment:
+      - CLASSPATH=/usr/local/tomcat/lib/servlet-api.jar

@@ -1,0 +1,13 @@
+{
+  "service": "work",
+  "name": "tomcatDocker",
+  "dockerComposeFile": "docker-compose.yml",
+  "forwardPorts": [8080],
+  "workspaceFolder": "/workspaces",
+  "settings": {
+    "terminal.integrated.automationShell.linux": "/bin/bash",
+    "java.debug.settings.hotCodeReplace": "auto"
+  },
+
+  "extensions": ["adashen.vscode-tomcat", "vscjava.vscode-java-pack"]
+}
